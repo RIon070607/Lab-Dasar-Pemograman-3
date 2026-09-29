@@ -162,7 +162,7 @@ begin
                                                                 end;
                                                                 until lagi in ['y', 'Y', 't', 'T'];
 
-                                                                until (lagi = 't') or (lagi = 'T');     { PERULANGAN BESAR: selesai }
+                                                                until (lagi = 't') or (lagi = 'T');    
 
                                                                 textcolor(blue);
                                                                  writeln('Terima kasih');
