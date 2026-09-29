@@ -67,27 +67,28 @@ uses crt;
                                 readln(jumlah);
 
                                     textcolor(blue);
-                                    if jumlah <=0 then
+                                    if (jumlah <=0) then
                                         begin
                                             textcolor(red);
                                             writeln('kode tidak valid');
+                                        end
+                                    else if (jumlah >10) then
+                                        begin
+                                            textcolor(red);
+                                            writeln('pesanan terlalu banyak');
                                         end;
-                                until jumlah > 0;
+                                     until (jumlah > 0) and (jumlah<=10);
 
+                                    
                                     writeln;
-                                    if jumlah >10 then
+                                    if (jumlah >0) and(jumlah<=10) then
                                         begin
-                                        write('pesanan terlalu banyak');
-                                        end
-                                    else if jumlah <=0 then
-                                        begin
-                                            write('jumlah pesanan tidak valid');
-                                        end
-                                    else
-                                        begin
-                                            write('Jumlah pesanan Normal');
+                                            textcolor(blue);
+                                            writeln('pesanan normal');
                                         end;
-                                            
+
+
+
                                             writeln;
                                             writeln;
                                             harga_awal:= harga * jumlah;
