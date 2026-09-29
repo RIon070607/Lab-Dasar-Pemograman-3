@@ -1,5 +1,5 @@
 //nama:Victor Chaste Nababan
-//kom: B
+//kom:B
 //nim:261401064
 program PembayaranMakanan;
 uses crt;
