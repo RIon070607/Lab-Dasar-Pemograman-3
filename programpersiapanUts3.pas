@@ -87,8 +87,6 @@ uses crt;
                                             writeln('pesanan normal');
                                         end;
 
-
-
                                             writeln;
                                             writeln;
                                             harga_awal:= harga * jumlah;
